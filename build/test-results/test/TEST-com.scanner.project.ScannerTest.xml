@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.scanner.project.ScannerTest" tests="109" skipped="0" failures="3" errors="0" timestamp="2024-11-18T20:50:34" hostname="KevinLiu-MacBook-Pro.local" time="0.098">
+<testsuite name="com.scanner.project.ScannerTest" tests="109" skipped="0" failures="3" errors="0" timestamp="2024-11-18T20:55:59" hostname="KevinLiu-MacBook-Pro.local" time="0.101">
   <properties/>
-  <testcase name="num22IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.012"/>
+  <testcase name="num22IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.011"/>
   <testcase name="slashIsOther()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="multiplicationSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="secretTest1()" classname="com.scanner.project.ScannerTest" time="0.002"/>
+  <testcase name="secretTest1()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="secretTest2()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="secretTest3()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="secretTest4()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="secretTest5()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="secretTest6()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="secretTest7()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="secretTest7()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="secretTest8()" classname="com.scanner.project.ScannerTest" time="0.022">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Operator&gt; but was: &lt;Identifier&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Operator&gt; but was: &lt;Identifier&gt;
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;sssss&gt; but was: &lt;test&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;sssss&gt; but was: &lt;test&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
@@ -101,14 +101,14 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="secretTest9()" classname="com.scanner.project.ScannerTest" time="0.005">
+  <testcase name="secretTest9()" classname="com.scanner.project.ScannerTest" time="0.004">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;!==&gt; but was: &lt;oid&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;!==&gt; but was: &lt;oid&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
-	at app//com.scanner.project.ScannerTest.secretTest9(ScannerTest.java:701)
+	at app//com.scanner.project.ScannerTest.secretTest9(ScannerTest.java:702)
 	at java.base@23.0.1/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base@23.0.1/java.lang.reflect.Method.invoke(Method.java:580)
 	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
@@ -192,58 +192,58 @@
 </failure>
   </testcase>
   <testcase name="num1IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="leftSquareBracketSymbolIsOther()" classname="com.scanner.project.ScannerTest" time="0.002"/>
-  <testcase name="aIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="ifIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num21IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="leftSquareBracketSymbolIsOther()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="aIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="ifIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num21IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num0IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num20IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num20IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num19IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="minusSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="minusSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="num256IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num18IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="mainIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="exclamationPointEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="ampersandIsOther()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="num54932IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num54932IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num5823943294892IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="num17IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="doubleAmpersandIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="doubleStarSymbolIsOperatorOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num17IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="doubleAmpersandIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="doubleStarSymbolIsOperatorOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="trueIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num5838323IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num16IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="equalsSignIsOther()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="elseIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="equalsSignIsOther()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="elseIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="counterIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="doubleEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="plusSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num15IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="lessThanSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="doIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="num14IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="plusSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num15IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="lessThanSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="doIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num14IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="num342894252085IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="colonEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num13IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="commaIsSeparator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="greaterThanSignEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="greaterThanSignEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="voidIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num12IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="divisionSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num12IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="divisionSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num100IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num1doubleEqualsSignNum2IsLiteralOperatorLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num11IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="xIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="greaterThanSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="num393920582IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="greaterThanSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num393920582IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="num10IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="FalseIsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num595686866830384IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num595686866830384IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="leftBracketIsSeparator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="pipeSymbolIsOther()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="rightSquareBracketIsOther()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num44820105839845032IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="aaIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num44820105839845032IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="aaIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num9IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num30IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num58834324234IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
@@ -258,7 +258,7 @@
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
-	at app//com.scanner.project.ScannerTest.secretTest10(ScannerTest.java:709)
+	at app//com.scanner.project.ScannerTest.secretTest10(ScannerTest.java:710)
 	at java.base@23.0.1/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base@23.0.1/java.lang.reflect.Method.invoke(Method.java:580)
 	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
@@ -343,40 +343,40 @@
   </testcase>
   <testcase name="TRUEIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="semicolonIsSeparator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="falseIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="falseIsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="doubleVerticalBarIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num543922IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="num7IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num543922IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num7IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="a3IsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num27IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num432205294320580285IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num432205294320580285IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="num6IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="exclamationPointBarIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="num26IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="X3IsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="exclamationPointBarIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num26IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.002"/>
+  <testcase name="X3IsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="capitalXLowercaseYNum1IsIdentifier()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="integerIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num5IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num48329483248322IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num48329483248322IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num25IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num2PeriodNum5IsOtherLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="whileIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="colonIsOther()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="whileIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="colonIsOther()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num4IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num4823980580280508IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="boolIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="boolIsKeyword()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="num4894309432IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="num85403345IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num24IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num24IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="num3IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="negativeSignNum5IsOperatorLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="negativeSignNum5IsOperatorLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <testcase name="rightBracketIsSeparator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num23IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="lessThanSignEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="num23IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="lessThanSignEqualsSignIsOperator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
   <testcase name="rightParenthesisIsSeparator()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="num2IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
-  <testcase name="atSignIsOther()" classname="com.scanner.project.ScannerTest" time="0.001"/>
-  <testcase name="TrueIsLiteral()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="num2IsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
+  <testcase name="atSignIsOther()" classname="com.scanner.project.ScannerTest" time="0.0"/>
+  <testcase name="TrueIsLiteral()" classname="com.scanner.project.ScannerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
