@@ -72,7 +72,6 @@ public class TokenStream {
 				t.setType("Operator");
 				return t;
 			}
-			nextChar = readChar();
 		}
 
 		// Then check for an operator; this part of the code should recover 2-character
